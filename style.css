@@ -1,0 +1,271 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: "Poppins",Arial, Helvetica, sans-serif;
+}
+
+#header {
+    position: sticky;
+    background: #000000;
+    padding: 5px;
+    font-family: 'Cookie', cursive;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo img {
+    margin: 10px;
+    width: 60px;
+}
+
+#menu {
+    flex: 0 0 70%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+#menu ul li a {
+    color: #ffffff;
+    font-size: 1.4rem;
+    text-decoration: none;
+}
+
+#menu ul li a:hover {
+    color: #2678c9;
+    transition: all 0.15s;
+}
+
+#intro-section img {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; 
+    margin-bottom: 10px;
+}
+
+#history-section header {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 1em;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#history-section p {
+    text-align: justify;
+    margin: 2em;
+    padding: 1em;
+    color: #ffffff;
+}
+
+.message {
+    display: flex;
+    margin: 2px;
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: gold;
+    font-weight: 100;
+}
+
+.message p {
+    font-size: 2.4rem;
+}
+
+.message img {
+    max-width: 100%; 
+}
+
+section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2em;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.my-information {
+    display: block;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#players-section {
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2em;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    color: #ffffff;   
+    font-weight: bold;
+}
+
+.players-container img {
+    width: 200px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.players-container {
+    display: flex;
+    justify-content: center;
+}
+
+div.player-stats {
+    display: flex;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.player-image img {
+    margin-right: 20px;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 20px;
+}
+
+.players-container {
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px double white;
+    border-radius: 50px;
+    display: grid;
+    place-items: center;   
+    width: 40%; 
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.message1 p {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.4rem;
+    color: gold;
+    margin-right: 20px;
+}
+
+
+.clasico-text {
+    text-align: justify;
+    margin: 2em;
+    padding: 1em;
+    color: #ffffff;
+}
+
+.clasico-text p {
+    text-align: center;
+    justify-content: center;
+    margin: 1em;
+    padding: 1em;
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.clasico-container {
+    display: flex;
+    justify-content: center;
+}
+
+.transfer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.player-name {
+    text-align: center;
+    justify-content: center;
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+
+.photo-player img {
+    margin-right: 40px;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 50px;
+    
+}
+
+.club-logo img {
+    width: 115px;
+    height: 120px;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-logo img {
+    width: 150px;
+    height: 120px;
+}
+
+.price p {
+    color: #ffffff;
+    font-size: 3em;
+    text-align: center;
+    margin-left: 40px;
+    font-weight: 400;
+}
+
+#footer-section {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#footer-section a {
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#footer-section a:hover {
+    color: #2678c9;
+    opacity: 1;
+    text-decoration: solid;
+    transition: all 0.15s;
+}
+
+.footer-socials img {
+    height: 40px;
+    width: 40px;
+}
